@@ -3,7 +3,7 @@
 
 # tecnologias utilizadas / _technologies used_
 <br>
-<hr>
+
 - React Redux @reduxjs/toolkit
 <br>
 - seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://redux-toolkit.js.org/introduction/getting-started_
@@ -18,9 +18,6 @@
 - npm install
 <hr>
 
-<br>
-
-<hr>
 - styled-components
 <br>
 - seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://styled-components.com/docs/basics#installation_
