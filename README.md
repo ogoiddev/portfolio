@@ -6,7 +6,7 @@
 <hr>
 - React Redux @reduxjs/toolkit
 <br>
-- seguindo as instrucoes aseguir: / _folowing instructions below:_ - _https://redux-toolkit.js.org/introduction/getting-started_
+- seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://redux-toolkit.js.org/introduction/getting-started_
 <hr>
 <br>
 <h3> starting like: </h3>
