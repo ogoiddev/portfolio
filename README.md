@@ -9,7 +9,7 @@
 - seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://redux-toolkit.js.org/introduction/getting-started_
 
 <br>
-### _starting like:_
+###### starting like:
 - npx create-react-app my-app --template redux-typescript
 <br>
 - npm install @reduxjs/toolkit
