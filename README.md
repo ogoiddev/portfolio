@@ -14,7 +14,7 @@
 <br>
 - npm install @reduxjs/toolkit
 <br>
-##### if we clone repository, just do - $ npm install
+#####if we clone repository, just do - $ npm install
 
  <hr>
  
