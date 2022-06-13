@@ -3,9 +3,9 @@
 
 # tecnologias utilizadas / _technologies used_
 <br>
+<hr>
 - React Redux @reduxjs/toolkit
 <br>
-<hr>
 - seguindo as instrucoes aseguir: / _folowing instructions below:_ - _https://redux-toolkit.js.org/introduction/getting-started_
 <hr>
 <br>
