@@ -8,7 +8,7 @@
 
   1. seguindo as instrucoes a seguir: / _folowing instructions below_:  =>  _https://redux-toolkit.js.org/introduction/getting-started_
 
-- starting like:
+## starting like:
   1. $ npx create-react-app my-app --template redux-typescript
 
   2. $ npm install @reduxjs/toolkit
