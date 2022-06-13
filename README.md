@@ -15,7 +15,6 @@
 - npm install @reduxjs/toolkit
 <br>
 <h6> if we clone repository, just do: <h6>
-<br>
 - npm install
 <hr>
 
