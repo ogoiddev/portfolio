@@ -6,7 +6,7 @@
 
 - React Redux @reduxjs/toolkit
 
-1. seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://redux-toolkit.js.org/introduction/getting-started_
+1. seguindo as instrucoes a seguir: / _folowing instructions below_:  =>  _https://redux-toolkit.js.org/introduction/getting-started_
 
 - starting like:
 1. npx create-react-app my-app --template redux-typescript
