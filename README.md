@@ -11,6 +11,7 @@
 <br>
 <h3> starting like: </h3>
 - npx create-react-app my-app --template redux-typescript
+<br>
 - npm install @reduxjs/toolkit
 <br>
 <hr>
