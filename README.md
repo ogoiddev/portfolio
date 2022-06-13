@@ -2,32 +2,29 @@
  reunindo aprendizados para apresentar em curriculo / _gathering lessons learned to present in my resume_
 
 # tecnologias utilizadas / _technologies used_
-<br>
+
 
 - React Redux @reduxjs/toolkit
-<br>
-- seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://redux-toolkit.js.org/introduction/getting-started_
 
-<br>
-###### starting like:
-- npx create-react-app my-app --template redux-typescript
-<br>
-- npm install @reduxjs/toolkit
-<br>
-### if we clone repository, just do - $ npm install
+1. seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://redux-toolkit.js.org/introduction/getting-started_
 
- <hr>
- 
-<br>
+- starting like:
+1. npx create-react-app my-app --template redux-typescript
+
+2. npm install @reduxjs/toolkit
+
+- if we clone repository, just do - $ npm install
+
+<hr>
+
 
 - Styled-components
-<br>
-- seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://styled-components.com/docs/basics#installation_
 
-<br>
-### starting like:
-- npm install --save styled-components
-<br>
+1. seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://styled-components.com/docs/basics#installation_
+
+- starting like:
+1. npm install --save styled-components
+
 <hr>
 
 
