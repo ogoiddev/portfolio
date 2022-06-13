@@ -16,6 +16,8 @@
 <br>
 <h6> if we clone repository, just do $npm install <h6>
 <hr>
+ 
+<br>
 
 - styled-components
 <br>
