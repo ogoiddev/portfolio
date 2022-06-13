@@ -19,7 +19,7 @@
  
 <br>
 
-- styled-components
+- Styled-components
 <br>
 - seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://styled-components.com/docs/basics#installation_
 
