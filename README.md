@@ -9,12 +9,12 @@
 - seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://redux-toolkit.js.org/introduction/getting-started_
 
 <br>
-<h3> starting like: </h3>
+### starting like:
 - npx create-react-app my-app --template redux-typescript
 <br>
 - npm install @reduxjs/toolkit
 <br>
-#####if we clone repository, just do - $ npm install
+### if we clone repository, just do - $ npm install
 
  <hr>
  
@@ -25,7 +25,7 @@
 - seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://styled-components.com/docs/basics#installation_
 
 <br>
-<h3> starting like: </h3>
+### starting like:
 - npm install --save styled-components
 <br>
 <hr>
