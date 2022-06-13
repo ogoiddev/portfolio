@@ -14,4 +14,20 @@
 <br>
 - npm install @reduxjs/toolkit
 <br>
+- if we clone repository, just do:
+<br>
+- npm install
 <hr>
+<br>
+<hr>
+- styled-components
+<br>
+- seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://styled-components.com/docs/basics#installation_
+<hr>
+<br>
+<h3> starting like: </h3>
+- npm install --save styled-components
+<br>
+<hr>
+
+
