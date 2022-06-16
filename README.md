@@ -12,6 +12,8 @@
   1. $ npx create-react-app my-app --template redux-typescript
 
   2. $ npm install @reduxjs/toolkit
+  
+  3. $ npm install react-router-dom@6 docs_: _https://reactrouter.com/docs/en/v6/getting-started/installation#basic-installation_
 
 - if we clone repository, just do = $ npm install
 
