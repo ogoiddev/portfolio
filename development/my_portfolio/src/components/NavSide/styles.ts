@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Container = styled.nav`
+export const Container = styled.nav`
   grid-area: sidenav;
   background-color: #1f1fff;
   display: flex;
@@ -16,4 +16,9 @@ const Container = styled.nav`
   }
 `
 
-export default Container;
+export const SkillSection = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+
+`;
