@@ -4,7 +4,7 @@ import { Container } from "./styles"
 function Footer() {
     return (
         <Container>
-            <p> <h1>@ogoiddev ® Copyright - Todos os direitos reservados.</h1> Feito com muito amor e dedicacao</p>
+            <span> <strong>® Copyright - Todos os direitos reservados.</strong> Feito com muito amor e dedicacao - @ogoiddev</span>
         </Container>
     );
 }

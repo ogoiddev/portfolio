@@ -2,11 +2,11 @@ import 'styled-components';
 
 export const Themes = {
   main: {
-    primary: '#041014',
-    secondary: '#2596be',
-    light: '#a8dbe6',
-    back: '#EBF9FA',
-    contrast: '#ffd166',
+    primary: '#313143',
+    secondary: '#98a3ca',
+    light: '#ddeaf0',
+    back: '#ced1d8',
+    contrast: '#3ffa90',
   },
 
   black: '#111',
