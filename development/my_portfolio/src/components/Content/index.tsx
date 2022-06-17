@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, SkillSection } from './styles';
+import ProjectCards from '../Project_cards/index';
 
 function Content() {
     return (
@@ -20,7 +21,10 @@ function Content() {
             <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
             </SkillSection>
 
-            <p> <h1>CONTENT</h1> lorem ipsum dolor sit amet, consectetur adiplorem ipsum dolor sit amet, consectetur adip</p>
+            
+            <h1>PROJECTS</h1>
+            <ProjectCards/>
+            
         </Container>
     );
 }

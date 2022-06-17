@@ -1,14 +1,16 @@
 import React from "react";
+import { Container } from './styles';
+
 function ProjectCards() {
   return (
-    <div >
+    <Container >
       {Array.from({ length: 5 }).map((element, i) =>
-        <div key={i}>
+        <div className="card" key={i}>
           <strong>{i}</strong>
         </div>
       )
       }
-    </div>
+    </Container>
   );
 }
 

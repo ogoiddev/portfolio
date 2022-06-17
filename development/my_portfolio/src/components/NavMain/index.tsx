@@ -11,9 +11,9 @@ function NavMain() {
             </div>
             
             <nav>
-                <a target="_blank" href="https://www.linkedin.com/in/ogoiddev/" rel="noreferrer">Linkedin</a>
-                <a target="_blank" href="https://github.com/ogoiddev" rel="noreferrer">Github</a>
-                <a target="_blank" href="contact">Contato</a>
+                <a data-back="Linkedin" data-front="Linkedin" target="_blank" href="https://www.linkedin.com/in/ogoiddev/" rel="noreferrer"><span>Linkedin</span></a>
+                <a data-back="Github" data-front="Github" target="_blank" href="https://github.com/ogoiddev" rel="noreferrer"><span>Github</span></a>
+                <a data-back="Contato" data-front="Contato" target="_blank" href="contact"><span>Contato</span></a>
             </nav>
         </Container>
     );

@@ -2,8 +2,15 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   grid-area: contentarea;
-  background-color: ${({ theme }) => theme.main.light};
-  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    align-self: center;
+    margin: 30px;
+    font-size: 2rem;
+  }
 `;
 
 export const SkillSection = styled.div`
@@ -16,7 +23,7 @@ export const SkillSection = styled.div`
   
   h2 {
     color: white;
-    font-size: 2.3rem;
+    font-size: 1.3rem;
     margin: 0 23px;
   }
 

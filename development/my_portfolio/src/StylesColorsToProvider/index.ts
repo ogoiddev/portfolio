@@ -3,9 +3,9 @@ import 'styled-components';
 export const Themes = {
   main: {
     primary: '#313143',
-    secondary: '#98a3ca',
-    light: '#ddeaf0',
-    back: '#ced1d8',
+    secondary: '#b4b7c7',
+    light: '#e9f7fc',
+    back: '#f5f8fc',
     contrast: '#3ffa90',
   },
 
