@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.nav`
   grid-area: sidenav;
-  background-color: #1f1fff;
+  background-color: ${({theme})=> theme.main.secondary };
   display: flex;
   flex-direction: column;
   align-items: center;
