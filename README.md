@@ -11,12 +11,12 @@
 ##### starting like:
   1. $ `npx create-react-app my-app --template redux-typescript`
 
-  2. $ npm install @reduxjs/toolkit
+  2. $ `npm install @reduxjs/toolkit`
   
-  3. $ npm install react-router-dom@6 
+  3. $ `npm install react-router-dom@6` 
        - docs_: _https://reactrouter.com/docs/en/v6/getting-started/installation#basic-installation_
 
-- if we clone repository, just do = $ npm install
+- if we clone repository, just do = $ `npm install`
 
 <hr>
 
@@ -26,7 +26,7 @@
   1. seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://styled-components.com/docs/basics#installation_
 
 ##### starting like:
-  1. $ npm install --save styled-components
+  1. $ `npm install --save styled-components`
 
 <hr>
 
