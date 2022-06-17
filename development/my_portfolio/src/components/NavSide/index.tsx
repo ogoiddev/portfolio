@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, SkillSection } from './styles';
 import logo from '../../images/foto_perfil_ogoiddev.jpg';
+import ProjectCards from '../Project_cards/index';
 
 function NavSide() {
     return (
         <Container>
             <img src={logo} alt="Foto Perfil de Diogo" />
-            <h3>Ferramentas e tecnologias que eu trabalho / <i>
-                Tools and technologies I work with </i> </h3>
+            <h2>SKILLS</h2>
 
             <SkillSection>
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
@@ -23,6 +23,10 @@ function NavSide() {
             <a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored-dark.svg" width="36" height="36" alt="Photoshop" /></a>
             <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
             </SkillSection>
+
+            <h2>PROJECTS</h2>
+
+            <ProjectCards/>
 
             <p> <h1>NAVSIDE</h1> lorem ipsum dolor sit amet, consectetur adiplorem ipsum dolor sit amet, consectetur adip</p>
         </Container>

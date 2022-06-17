@@ -4,7 +4,7 @@ import { Container } from "./styles"
 function Footer() {
     return (
         <Container>
-            <p> <h1>FOOTER</h1> lorem ipsum dolor sit amet, consectetur adiplorem ipsum dolor sit amet, consectetur adip</p>
+            <p> <h1>@ogoiddev ® Copyright - Todos os direitos reservados.</h1> Feito com muito amor e dedicacao</p>
         </Container>
     );
 }

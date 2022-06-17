@@ -2,10 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.nav`
   grid-area: sidenav;
-  background-color: ${({theme})=> theme.main.secondary };
+  background-color: ${({theme})=> theme.main.light };
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 0 33px 0 #55555585;
 
 
   img {
@@ -17,8 +18,13 @@ export const Container = styled.nav`
 `
 
 export const SkillSection = styled.div`
+  background-color: ${({theme})=> theme.black };
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 90%;
-
+  width: 100%;
+  
+  a { 
+    margin: 10px;
+  }
 `;

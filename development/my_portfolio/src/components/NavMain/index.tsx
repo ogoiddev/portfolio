@@ -4,8 +4,12 @@ import { Container } from './styles'
 function NavMain() {
     return (
         <Container>
-            <h1>NAVMAIN</h1>
-            {'Ola, eu sou Diogo Martini Pantaleao)'}
+            <div className="present">
+            <h1>{"I'm, Diogo Martini Pantaleao"}</h1>
+            <h1><span>Frontend</span> Developer</h1>
+            <i>{'"Honest in small things, is not a small thing"'}</i>
+            </div>
+            
             <nav>
                 <a target="_blank" href="https://www.linkedin.com/in/ogoiddev/" rel="noreferrer">Linkedin</a>
                 <a target="_blank" href="https://github.com/ogoiddev" rel="noreferrer">Github</a>
