@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Container, SkillSection } from './styles';
 import ProjectCards from '../Project_cards/index';
+import fotto from '../../images/foto_perfil_ogoiddev.jpg';
 
 function Content() {
+    const videoEl = useRef(null);
+
+    const attemptPlay = () => {
+        console.log(videoEl.current.play())
+        videoEl &&
+        videoEl.current &&
+        videoEl.current.play<boolean>().catch(error => {
+            console.error("Error attempting to play", error);
+        });
+    };
+    
+
+    useEffect(() => {
+    attemptPlay();
+    }, []);
+
     return (
         <Container>
             <SkillSection>
@@ -23,6 +40,54 @@ function Content() {
 
             
             <h1>PROJECTS</h1>
+            
+            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
+                <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <video
+                            style={{ maxWidth: "100%", width: "800px", margin: "0 auto" }}
+                            playsInline
+                            loop
+                            muted
+                            controls
+                            src="../../videos/app.mp4"
+                            ref={videoEl}
+                        />
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                    </div>
+                    <div className="carousel-item">
+                    <img src={fotto} className="d-block w-100" alt="opa" width="100px"/>
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                    </div>
+                    <div className="carousel-item">
+                    <img src={fotto} className="d-block w-100" alt="opa" width="100px"/>
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                    </div>
+                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                </button>
+            </div>
+            
             <ProjectCards/>
             
         </Container>

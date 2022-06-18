@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-export const Container = styled.nav`
+export const Container = styled.div`
   margin: 0 5%;
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-columns: minmax(253px, 17%) minmax(63%, 2fr) 1fr;
-  grid-template-rows: minmax(333px, 4fr) 8fr 33px;
+  grid-template-rows: 333px 8fr 33px;
   grid-template-areas:
   "sidenav mainnav mainnav"
   "sidenav contentarea contentarea"

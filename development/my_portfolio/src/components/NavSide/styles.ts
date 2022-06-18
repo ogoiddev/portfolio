@@ -19,8 +19,9 @@ export const Container = styled.nav`
       display: flex;
       justify-content: center;
       position: relative;
-    }
 
+    }
+    
     .float{
       display: flex;
       align-items: center;
@@ -38,9 +39,13 @@ export const Container = styled.nav`
       bottom: 33px;
       right: 43px;
       text-decoration: none;
-  
-  
-        i {
+      
+      :hover {
+        transform: scale(1.2);
+        transition: ease-in-out 0.3s;
+      }
+      
+      i {
           border: none;
         }
     }
