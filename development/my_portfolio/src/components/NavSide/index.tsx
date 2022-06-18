@@ -5,19 +5,29 @@ import logo from '../../images/foto_perfil_ogoiddev.jpg';
 function NavSide() {
     return (
         <Container>
-            <img src={logo} alt="Foto Perfil de Diogo" />
+            <section className="Sides-0">
+                <img src={logo} alt="Foto Perfil de Diogo" />
+                    <h3>Diogo</h3>
+                    <span>Web Developer</span>
+            </section>
 
             <section className="Sides-1">
-                <div>
-                    <span>Diogo</span>
-                    <span>Web Developer</span>
-                </div>
-                <div>
+                <i>Solucionando problemas</i>
+
                     <span><span className="arrob">@</span>ogoiddev</span>
                     <span><span className="arrob">@</span>tryber</span>
-                </div>
+                
+            </section>
+            
+            
+            <section className="Sides-2">
+                <span>Education:</span>
+                <p>Web Developer</p>
+                <p>Marketing/Advertising</p>
 
-                <i>Solucionando problemas</i>
+                <span>Age:</span><p>37</p>
+                <span>Home:</span><p>Ubirata/Parana/Brasil</p>
+                <span>Hobbie:</span><p>Acoustic Guitar</p>
             </section>
 
 

@@ -5,12 +5,10 @@ export const Container = styled.nav`
   align-items: center;
   justify-content: space-evenly;
   width: 90%;
-  border:  1px solid;
 
   
   .card {
     height: 200px;
     width: 100%;
-    border: 1px solid red;
   }
 `;

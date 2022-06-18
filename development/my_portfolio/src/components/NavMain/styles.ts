@@ -2,11 +2,13 @@ import styled from 'styled-components';
 
 
 export const Container = styled.nav`
-  background-color: ${({ theme }) => theme.main.primary};
+  /* background-color: ${({ theme }) => theme.main.primary}; */
+  background: rgb(49,49,67);
+  background: linear-gradient(90deg, rgba(49,49,67,1) 0%, rgba(27,30,42,1) 65%, rgba(22,33,41,1) 100%);
   display: grid;
   grid-area: mainnav;
   grid-template-columns: 1fr auto;
-  grid-template-areas: 
+  grid-template-areas:
   "nav nav"
   "title title";
   
@@ -22,7 +24,7 @@ export const Container = styled.nav`
       font-size: 2.7rem;
       font-weight: 600;
       
-      span { 
+      span {
         color: ${({ theme }) => theme.main.contrast};
         font-size: 3rem;
       }
@@ -45,12 +47,12 @@ export const Container = styled.nav`
     a {
       background-color: ${({ theme }) => theme.main.light};
       border: 1px solid ${({ theme }) => theme.main.contrast};
-      border-radius: 9px;
+      border-radius: 33px;
       display: flex;
       height: fit-content;
       align-items: center;
       text-decoration: none;
-      width: 133px;
+      width: 153px;
       margin: 13px;
       position: relative;
       outline: 0;
