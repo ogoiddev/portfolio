@@ -4,7 +4,7 @@ export const Container = styled.nav`
   margin: 0 5%;
   height: 100vh;
   display: grid;
-  grid-template-columns: minmax(153px, 17%) minmax(63%, 2fr) 1fr;
+  grid-template-columns: minmax(253px, 17%) minmax(63%, 2fr) 1fr;
   grid-template-rows: minmax(333px, 4fr) 8fr 33px;
   grid-template-areas:
   "sidenav mainnav mainnav"
