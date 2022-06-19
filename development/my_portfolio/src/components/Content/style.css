@@ -8,16 +8,71 @@
   width: 100%;
 }
 
-.carousel-control-next {
+.carousel-control-next , .carousel-control-prev {
   background: #44444425;
   width: 7%;
+
+}
+
+.carousel-control-next svg , .carousel-control-prev svg {
+  height: 100px;
+  width: 70%;
+}
+
+
+.password_generator img {
+  width: auto !important;
+  max-height: 330px;
+  margin: 0 auto;
 }
 
 .react-player {
   margin: 0 auto;
 }
 
-.carousel-control-next-icon {
-  background-image: #3ffa90;
-  color: #3ffa90;
+
+/* forms */
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  height: 433px;
+  width: 100%;
+  margin-bottom: 133px;
+
+}
+
+.tile-contact {
+  margin: 133px 0 33px 0 !important;
+  font-size: 1.5em !important;
+  font-weight: 800 !important;
+  color: #313143 !important;
+} 
+
+form {
+    width: 40%;
+    height: 90%
+  }
+
+form input {
+  margin: 13px 0;
+}
+
+aside {
+    width: 40%;
+    height: 90%
+  }
+
+form button:hover {
+  background: #3ffa90 !important;
+  color: #313143 !important;
+  font-weight: 800;
+  box-shadow: inset 10em 0 0 0 #3ffa90;
+  border: 1px solid white;
+  transition: 0.4s;
+}
+
+form button {
+
+  width: 200px;
 }

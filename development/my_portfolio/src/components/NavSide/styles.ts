@@ -16,7 +16,7 @@ export const Container = styled.nav`
   
   @keyframes drop-down{
     0%  {
-      height: 33%;
+      height: 13%;
     }
     100%  {
       height: 100%;

@@ -6,6 +6,7 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
   animation:scale-up-horizontal-left 2s;
+  height: 100%;
   
   
 
@@ -38,6 +39,7 @@ export const SkillSection = styled.div`
   background: rgb(49,49,67);
   background: linear-gradient(90deg, rgba(49,49,67,1) 0%, rgba(32,36,50,1) 65%, rgba(24,34,41,1) 100%);
   
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;

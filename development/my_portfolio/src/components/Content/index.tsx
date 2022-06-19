@@ -1,11 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, SkillSection } from './styles';
-import fotto from '../../images/foto_perfil_ogoiddev.jpg';
+import fottoPassG from "../../images/password_generator.jpg";
+
 import ReactPlayer from 'react-player';
-import Video from "../../videos/app.mp4";
+import VideoTrivia from "../../videos/app.mp4";
+import VideoTriunfo from "../../videos/simpsons_triunfo.mp4"
 import './style.css';
 
+interface inserI {
+    nameFrom: string;
+    emailFrom: string;
+    textFrom: string;
+}
+
+const INITIAL_STATE_FORM = {
+        nameFrom: '',
+        emailFrom: '',
+        textFrom: '',
+    }
+
 function Content() {
+    const [insertForm, setInsertForm] = useState<inserI>(INITIAL_STATE_FORM);
+
 
     
     ReactPlayer.removeCustomPlayers();
@@ -28,8 +44,8 @@ function Content() {
             </SkillSection>
 
             
-            <h1>A seguir estão listados projetos que desenvolvi ou participei </h1> 
-            <h1><i>Below are listed projects that I developed or participated in</i></h1>
+            {/* <h1>A seguir estão listados projetos que desenvolvi ou participei </h1> 
+            <h1><i>Below are listed projects that I developed or participated in</i></h1> */}
             
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
 
@@ -41,45 +57,116 @@ function Content() {
 
                 <div className="carousel-inner">
                     <div className="carousel-item active">
+
+                        <a href="http://www.natture.com.br/cgi-sys/suspendedpage.cgi" className="trivia" target="blank">
+
                             <ReactPlayer
-                                url={ Video }
-                            type="video/mp4"
-                            className='react-player'
-                            />
+                                url={ VideoTriunfo }
+                                type="video/mp4"
+                                className='react-player'
+                                controls
+                                />
+                        </a>
                     </div>
 
                     <div className="carousel-item">
-                    <img src={fotto} className="d-block w-100" alt="opa" width="100px"/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
+                        <a href="https://pass-generator-ogoiddev.netlify.app/" className="password_generator" target="blank">    
+                            <img src={fottoPassG} className="d-block w-100" alt="opa" />
+                        </a>              
                     </div>
 
                     <div className="carousel-item">
-                    <img src={fotto} className="d-block w-100" alt="opa" width="100px"/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
+                        <a href="https://trivia-g28.netlify.app/" className="trivia" target="blank">
+
+                            <ReactPlayer
+                                url={ VideoTrivia }
+                                type="video/mp4"
+                                className='react-player'
+                                controls
+                                />
+                        </a>
                     </div>
 
                 </div>
 
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#111" className="bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                    </svg>
                 </button>
+                        
                 <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#111" className="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>
                     <span className="visually-hidden">Next</span>
                 </button>
 
 
             </div>
-
             
+            <h1 className="tile-contact">CONTACT</h1>
+            <div className="contact">
 
+                <form className="form">
+                    <div className="mb-3">
+                        
+                        <input
+                            onChange={({ target: element }) =>                                 
+                                setInsertForm(
+                                    (prev) => ({
+                                        ...prev,
+                                        nameFrom: element.value,
+                                    }))
+                            }
+                            value={insertForm.nameFrom}
+                            className="form-control"
+                            type="text"
+                            placeholder="Your name or Company"
+                            />
+                        
+                        <input
+                            onChange={({ target: element }) =>                                 
+                                setInsertForm(
+                                    (prev) => ({
+                                        ...prev,
+                                        emailFrom: element.value,
+                                    }))
+                            }
+                            value={insertForm.emailFrom}
+                            type="email"
+                            className="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder="Email address - name@example.com" />
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="exampleFormControlTextarea1" className="form-label">Here you text to me:</label>
+                        <textarea
+                            onChange={({ target: element }) =>                                 
+                                setInsertForm(
+                                    (prev) => ({
+                                        ...prev,
+                                        textFrom: element.value,
+                                    }))
+                            }
+                            value={insertForm.textFrom}
+                            className="form-control"
+                            id="exampleFormControlTextarea1"
+                            rows={3}></textarea>
+                    </div>
+
+                    <button
+                        onClick={ () => setInsertForm(INITIAL_STATE_FORM)}
+                        type="button"
+                        className="btn btn-outline-success">Send to me</button>
+                </form>
+                
+                <aside className="letter_show">
+                    <span><strong>From:</strong>{insertForm.nameFrom}</span>
+                    <span><strong>E-mail:</strong>{insertForm.emailFrom}</span>
+                    <span><strong>Content:</strong>{insertForm.textFrom}</span>
+                </aside>
+            </div>
         </Container>
     );
 }

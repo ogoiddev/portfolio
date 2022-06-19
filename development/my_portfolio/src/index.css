@@ -12,7 +12,7 @@ code {
   padding: 0;
   font-size: 16px;
   font-family: Merriweather Sans, -apple-system, sans-serif;
-
+  box-sizing: border-box;
 }
 
 /*

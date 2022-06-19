@@ -11,7 +11,9 @@ function NavSide() {
 
                     <img src={logo} alt="Foto Perfil de Diogo" />
                     
-                    <a href="https://api.whatsapp.com/send?phone=5544991423390&text=Chat%20me%20%3A)" className="float" target="blank">
+                        <a href="https://api.whatsapp.com/send?phone=5544991423390&text=Chat%20me%20%3A)"
+                            className="float"
+                            target="blank">
                         <i className="fa fa-whatsapp"></i>
                     </a>
                 </div>
