@@ -11,7 +11,7 @@ export const Container = styled.footer`
   
   span, strong {
 
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   
   

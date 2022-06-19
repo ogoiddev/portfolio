@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  animation:scale-up-horizontal-left 1s;
+  animation:scale-up-horizontal-left 2s;
   
   
 
@@ -18,12 +18,10 @@ export const Container = styled.div`
   
   @keyframes scale-up-horizontal-left{
     0%  {
-      transform:scaleX(.4);
-      transform-origin:left center
+      filter: blur(4px);
     }
     100%  {
-      transform:scaleX(1);
-      transform-origin:left center
+      filter: blur(0);
     }
   };
 
@@ -38,21 +36,35 @@ export const SkillSection = styled.div`
   /* background-color: ${({ theme }) => theme.main.primary }; */
   background: rgb(49,49,67);
   background: linear-gradient(90deg, rgba(49,49,67,1) 0%, rgba(32,36,50,1) 65%, rgba(24,34,41,1) 100%);
+  
   display: flex;
   align-items: center;
-  justify-content: start;
   flex-wrap: wrap;
   width: 100%;
+  height: fit-content;
   
   h2 {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0 23px;
   }
 
   a {
     display: flex;
     align-items: center;
-    margin: 13px;
+    margin: 13px 3px;
+    height: 33px;
+    object-fit: fit-content;
+    padding: 5px 0;
+
+    :hover {
+      border-top: 1px solid  ${({ theme }) => theme.main.contrast };
+      filter: saturate(500%);
+      transition: 1s;
+    }
+
+    img {
+      height: 100%;
+    }
   }
 `;

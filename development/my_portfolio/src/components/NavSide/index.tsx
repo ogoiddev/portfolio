@@ -13,15 +13,15 @@ function NavSide() {
                     <a href="https://api.whatsapp.com/send?phone=5544991423390&text=Chat%20me%20%3A)" className="float" target="blank">
                         <i className="fa fa-whatsapp"></i>
                     </a>
-
                 </div>
+
                 
-                    <h3>Diogo</h3>
-                    <span>Web Developer</span>
+                    <h5>Diogo</h5>
+                    <h6>Web Developer</h6>
+                    <h5><i>Solucionando problemas</i></h5>
             </section>
 
             <section className="Sides-1">
-                <i>Solucionando problemas</i>
 
                 <span><span className="arrob">@</span><a
                     href="https://github.com/ogoiddev"

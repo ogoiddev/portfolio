@@ -14,6 +14,15 @@ export const Container = styled.nav`
     align-items: center;
     margin-top: 33px;
     
+  img {
+    width: 70%;
+    clip-path: circle(45% at 50% 43%);
+    animation:scale-up-horizontal-left 2s;
+  }
+
+    h6 {
+      font-weight: 800;
+    }
 
     .zap {
       display: flex;
@@ -26,8 +35,8 @@ export const Container = styled.nav`
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 50px;
-      height: 50px;
+      width: 45px;
+      height: 45px;
       background-color: ${({ theme }) => theme.main.contrast};
       color: ${({ theme }) => theme.main.back};
       border-radius: 50%;
@@ -36,25 +45,17 @@ export const Container = styled.nav`
       box-shadow: 2px 2px 3px #999;
       z-index:100;
       position: absolute;
-      bottom: 33px;
-      right: 43px;
+      bottom: 23px;
+      right: 33px;
       text-decoration: none;
       
       :hover {
         transform: scale(1.2);
+        filter: saturate(200%);
         transition: ease-in-out 0.3s;
       }
-      
-      i {
-          border: none;
-        }
-    }
-  }
   
-
-  img {
-    width: 70%;
-    clip-path: circle(45% at 50% 43%);
+    }
   }
 
 
@@ -62,8 +63,9 @@ export const Container = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 133px;
+    height: 33px;
     width: 80%;
+    margin-top: 13px;
 
     a {
       text-decoration: none;
@@ -76,12 +78,8 @@ export const Container = styled.nav`
     
     .arrob {
       color: ${({ theme }) => theme.main.contrast};
-    };
-    
-    i {
       font-weight: 800;
-      align-self: center;
-    }
+    };
   }
 
   .Sides-2 {
@@ -92,22 +90,22 @@ export const Container = styled.nav`
     margin-top: 33px;
     
     p {
-      padding: 0 9px;
       width: 100%;
       overflow: hidden;
+      margin: 0;
     }
     
     span {
       background-color: ${({ theme }) => theme.main.primary};
       color: ${({ theme }) => theme.main.contrast};
-      padding: 0 9px;
+      
       width: fit-content;
       margin: 5px 0;
-    }
-
-    p, span {
-      padding: 3px 7px;
+    
+      padding: 1px 5px;
       border-radius: 3px;
+      font-size: 0.9rem;
+      font-weight: 800;
     }
 
   }

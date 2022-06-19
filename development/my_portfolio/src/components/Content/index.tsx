@@ -7,6 +7,7 @@ import Video from "../../videos/app.mp4";
 function Content() {
     ReactPlayer.removeCustomPlayers();
 
+
     return (
         <Container>
             <SkillSection>
@@ -38,7 +39,7 @@ function Content() {
                     <div className="carousel-item active">
                         <ReactPlayer
                             url={ Video }
-                            light
+                            type="video/mp4"
                         />
                     <div className="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
