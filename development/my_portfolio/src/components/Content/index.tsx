@@ -1,22 +1,11 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { Container, SkillSection } from './styles';
 import fotto from '../../images/foto_perfil_ogoiddev.jpg';
+import ReactPlayer from 'react-player';
+import Video from "../../videos/app.mp4";
 
 function Content() {
-    const videoEl = useRef<HTMLAudioElement>(null);
-
-    const attemptPlay = () => {
-        videoEl &&
-        videoEl.current &&
-        videoEl.current.play().catch(error => {
-            console.error("Error attempting to play", error);
-        });
-    };
-    
-
-    useEffect(() => {
-    attemptPlay();
-    }, []);
+    ReactPlayer.removeCustomPlayers();
 
     return (
         <Container>
@@ -47,24 +36,10 @@ function Content() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        {/* <audio
-                            style={{ maxWidth: "100%", width: "800px", margin: "0 auto" }}
-                            playsInline
-                            loop
-                            muted
-                            controls autoPlay
-                            src="../../videos/Screencast from 13-04-2022 00:00:11.webm"
-                            ref={videoEl}
-                        /> */}
-                  
-                        <iframe
-                            src="../../videos/Screencast from 13-04-2022 00:00:11.webm"
-                            frameBorder="0"
-                            allow={ `accelerometer; autoplay; clipboard-write; 
-                            encrypted-media; gyroscope; picture-in-picture` }
-                            allowFullScreen
+                        <ReactPlayer
+                            url={ Video }
+                            light
                         />
-                
                     <div className="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
