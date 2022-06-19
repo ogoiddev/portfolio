@@ -15,7 +15,9 @@
   
   3. $ `npm install react-router-dom@6` 
        - docs_: _https://reactrouter.com/docs/en/v6/getting-started/installation#basic-installation_
-
+  4. $ `npm i react-player`
+       - docs_:  _[https://styled-components.com/docs/basics#installation](https://www.npmjs.com/package/react-player)_
+  
 - if we clone repository, just do = $ `npm install`
 
 <hr>
@@ -29,5 +31,6 @@
   1. $ `npm install --save styled-components`
 
 <hr>
+
 
 
