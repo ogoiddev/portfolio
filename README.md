@@ -32,5 +32,14 @@
 
 <hr>
 
+### Bootstrap
+
+  1. seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _[https://styled-components.com/docs/basics#installation](https://getbootstrap.com/docs/5.2/getting-started/introduction/)_
+
+##### starting like:
+  1. $ `npm i bootstrap@5.2.0-beta1`
+
+<hr>
+
 
 
