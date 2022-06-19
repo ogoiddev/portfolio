@@ -46,7 +46,7 @@ export const SkillSection = styled.div`
   
   h2 {
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 0 23px;
   }
 

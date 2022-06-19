@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Container = styled.nav`
   /* background-color: ${({ theme }) => theme.main.primary}; */
   background: rgb(49,49,67);
-  background: linear-gradient(90deg, rgba(49,49,67,1) 0%, rgba(27,30,42,1) 65%, rgba(22,33,41,1) 100%);
+  background: linear-gradient(35deg, rgba(49,49,67,1) 0%, rgba(27,30,42,1) 65%, rgba(22,33,41,1) 100%);
   display: grid;
   grid-area: mainnav;
   grid-template-columns: 1fr auto;
@@ -43,6 +43,8 @@ export const Container = styled.nav`
     min-width: 233;
     padding: 23px;
     position: relative;
+    position: sticky;
+    top: 0; 
 
     a {
       background-color: ${({ theme }) => theme.main.light};
