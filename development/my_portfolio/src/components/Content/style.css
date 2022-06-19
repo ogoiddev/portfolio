@@ -1,0 +1,23 @@
+.carousel-inner {
+  width: 100%;
+  height: 330px;
+}
+
+.slide {
+  padding: 0 auto;
+  width: 100%;
+}
+
+.carousel-control-next {
+  background: #44444425;
+  width: 7%;
+}
+
+.react-player {
+  margin: 0 auto;
+}
+
+.carousel-control-next-icon {
+  background-image: #3ffa90;
+  color: #3ffa90;
+}

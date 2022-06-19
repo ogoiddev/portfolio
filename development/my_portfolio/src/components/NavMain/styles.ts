@@ -40,6 +40,9 @@ export const Container = styled.nav`
     padding: 33px 23px;
     width: 100%;
 
+    position: sticky;
+    top: 0;
+
     a {
       text-decoration: none;
       background-color: ${({ theme }) => theme.main.light};

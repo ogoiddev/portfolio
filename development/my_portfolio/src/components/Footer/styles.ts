@@ -13,7 +13,7 @@ export const Container = styled.footer`
   
   span, strong {
 
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   
   
