@@ -8,6 +8,8 @@ export const Container = styled.footer`
   align-items: center;
   position: sticky;
   bottom: 0;
+
+  z-index: 133;
   
   span, strong {
 

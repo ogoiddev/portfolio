@@ -4,6 +4,7 @@ import logo from '../../images/foto_perfil_ogoiddev.jpg';
 
 function NavSide() {
     return (
+        <div>
         <Container>
             <section className="Sides-0">
                 <div className="zap">
@@ -26,11 +27,11 @@ function NavSide() {
                 <span><span className="arrob">@</span><a
                     href="https://github.com/ogoiddev"
                     target="blank"
-                >ogoiddev</a></span>
+                    >ogoiddev</a></span>
                 <span><span className="arrob">@</span><a
                     href="https://www.betrybe.com"
                     target="blank"
-                >tryber</a></span>
+                    >tryber</a></span>
                 
             </section>
             
@@ -47,6 +48,7 @@ function NavSide() {
 
             
         </Container>
+                    </div>
     );
 }
 

@@ -7,6 +7,24 @@ export const Container = styled.nav`
   align-items: center;
   box-shadow: 0 0 23px 0 ${({ theme }) => theme.main.primary}75;
   padding: 15px;
+  height: 100%;
+  overflow-y: hidden;
+
+  animation: drop-down 2s ;
+  
+  @keyframes drop-down{
+    0%  {
+      height: 33%;
+    }
+    100%  {
+      height: 100%;
+    }
+  };
+
+  position: fixed;
+  top: 0;
+  width: 233px;
+  max-width: 23%;
 
   .Sides-0 {
     display: flex;

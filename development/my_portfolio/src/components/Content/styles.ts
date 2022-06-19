@@ -25,10 +25,11 @@ export const Container = styled.div`
     }
   };
 
-  h1 {
+  h1, i {
     align-self: center;
-    margin: 30px;
-    font-size: 2rem;
+    margin: 2px 23px;
+    font-weight: 300;
+    font-size: 0.8rem;
   }
 `;
 

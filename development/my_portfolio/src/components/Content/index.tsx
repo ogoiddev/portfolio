@@ -27,7 +27,8 @@ function Content() {
             </SkillSection>
 
             
-            <h1>WORKs</h1>
+            <h1>A seguir estão listados projetos que desenvolvi ou participei </h1> 
+            <h1><i>Below are listed projects that I developed or participated in</i></h1>
             
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
                 <div className="carousel-indicators">
