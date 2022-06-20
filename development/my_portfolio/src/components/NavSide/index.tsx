@@ -21,7 +21,7 @@ function NavSide() {
                 
                     <h5>Diogo</h5>
                     <h6>Web Developer</h6>
-                    <h5><i>Solucionando problemas</i></h5>
+                    <p ><i className="ii">Solucionando problemas</i></p>
             </section>
 
             <section className="Sides-1">

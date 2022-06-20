@@ -9,6 +9,9 @@ background-color: ${({ theme }) => theme.main.back};
   box-shadow: 0 0 23px 0 ${({ theme }) => theme.main.primary}75;
   padding: 15px;
 
+  .ii {
+    font-size: 14px;
+  }
 
   height: 100%;
   overflow-y: hidden;
@@ -26,7 +29,7 @@ background-color: ${({ theme }) => theme.main.back};
 
   position: fixed;
   top: 0;
-  width: 233px;
+  width: 223px;
   
 
   .Sides-0 {
@@ -34,6 +37,7 @@ background-color: ${({ theme }) => theme.main.back};
     flex-direction: column;
     align-items: center;
     margin-top: 33px;
+    
     
   img {
     width: 70%;
@@ -85,7 +89,7 @@ background-color: ${({ theme }) => theme.main.back};
     flex-direction: column;
     justify-content: space-evenly;
     height: 33px;
-    width: 80%;
+    width: 90%;
     margin-top: 13px;
 
     a {
@@ -107,7 +111,7 @@ background-color: ${({ theme }) => theme.main.back};
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 80%;
+    width: 90%;
     margin-top: 33px;
     
     p {
