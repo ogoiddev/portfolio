@@ -124,7 +124,7 @@ function Content() {
                     className="form"
                 >
                         
-                        <input type="hidden" name="_next" value="http://ogoiddev_portfolio.netlify.app/home"></input>
+                        <input type="hidden" name="_next" value="https://ogoiddev.vercel.app/home"></input>
                         
                     <div className="mb-3">
                         
