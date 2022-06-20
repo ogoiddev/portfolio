@@ -43,7 +43,7 @@
 
 ### Formsubmit
 
-  1. seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  <a target="blank" href="https://formsubmit.co/">_Docs_</a>
+  1. seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  <a target="_blank" href="https://formsubmit.co/">_Docs_</a>
 
 <hr>
 
