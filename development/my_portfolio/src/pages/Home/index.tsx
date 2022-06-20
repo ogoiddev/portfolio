@@ -7,7 +7,9 @@ function Home() {
     <NavMain />
     <NavSide />
     <Content />
-    <Footer/>
+
+    <Footer />
+    
   </Container>;
 }
 

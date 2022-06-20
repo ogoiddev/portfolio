@@ -66,13 +66,25 @@ aside {
 form button:hover {
   background: #3ffa90 !important;
   color: #313143 !important;
-  font-weight: 800;
+  font-weight: 800 !important;
   box-shadow: inset 10em 0 0 0 #3ffa90;
-  border: 1px solid white;
+  border: 1px solid white !important;
   transition: 0.4s;
 }
 
 form button {
 
   width: 200px;
+}
+
+.letter_show {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+  
+.letter_show  span, strong {
+      margin: 23px;
+      word-break: break-all;
 }

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.nav`
+background-color: ${({ theme }) => theme.main.back};
   grid-area: sidenav;
   display: flex;
   flex-direction: column;

@@ -12,4 +12,5 @@ export const Container = styled.div`
   "sidenav footer footer";
   grid-column-gap: 13px;
   grid-row-gap: 18px;
+
 `;

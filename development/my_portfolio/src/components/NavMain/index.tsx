@@ -3,7 +3,7 @@ import { Container } from './styles'
 
 function NavMain() {
     return (
-        <Container>
+        <Container id='things'>
             <nav>
                 <a data-back="Linkedin" data-front="Linkedin" target="_blank" href="https://www.linkedin.com/in/ogoiddev/" rel="noreferrer"><span>Linkedin</span></a>
                 <a data-back="Github" data-front="Github" target="_blank" href="https://github.com/ogoiddev" rel="noreferrer"><span>Github</span></a>

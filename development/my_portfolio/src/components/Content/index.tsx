@@ -7,6 +7,8 @@ import VideoTrivia from "../../videos/app.mp4";
 import VideoTriunfo from "../../videos/simpsons_triunfo.mp4"
 import './style.css';
 
+
+
 interface inserI {
     nameFrom: string;
     emailFrom: string;
@@ -104,7 +106,7 @@ function Content() {
 
 
             </div>
-            
+
             <h1 className="tile-contact">CONTACT</h1>
             <div className="contact">
 
@@ -161,12 +163,17 @@ function Content() {
                         className="btn btn-outline-success">Send to me</button>
                 </form>
                 
+            
                 <aside className="letter_show">
                     <span><strong>From:</strong>{insertForm.nameFrom}</span>
                     <span><strong>E-mail:</strong>{insertForm.emailFrom}</span>
                     <span><strong>Content:</strong>{insertForm.textFrom}</span>
                 </aside>
+            
+                
             </div>
+
+
         </Container>
     );
 }
