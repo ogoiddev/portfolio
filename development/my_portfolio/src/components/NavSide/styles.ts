@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.nav`
-background-color: ${({ theme }) => theme.main.back};
+  background-color: ${({ theme }) => theme.main.back};
+  
   grid-area: sidenav;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   box-shadow: 0 0 23px 0 ${({ theme }) => theme.main.primary}75;
-  padding: 15px;
+  
+  width: 213px;
 
   .ii {
     font-size: 14px;
@@ -15,7 +18,10 @@ background-color: ${({ theme }) => theme.main.back};
 
   height: 100%;
   overflow-y: hidden;
-
+  
+  position: fixed;
+  top: 0;
+  
   animation: drop-down 2s ;
   
   @keyframes drop-down{
@@ -26,10 +32,6 @@ background-color: ${({ theme }) => theme.main.back};
       height: 100%;
     }
   };
-
-  position: fixed;
-  top: 0;
-  width: 223px;
   
 
   .Sides-0 {
@@ -37,7 +39,7 @@ background-color: ${({ theme }) => theme.main.back};
     flex-direction: column;
     align-items: center;
     margin-top: 33px;
-    
+    width: 85%;
     
   img {
     width: 70%;
@@ -89,7 +91,7 @@ background-color: ${({ theme }) => theme.main.back};
     flex-direction: column;
     justify-content: space-evenly;
     height: 33px;
-    width: 90%;
+    width: 85%;
     margin-top: 13px;
 
     a {
@@ -111,7 +113,7 @@ background-color: ${({ theme }) => theme.main.back};
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 90%;
+    width: 85%;
     margin-top: 33px;
     
     p {
@@ -135,4 +137,41 @@ background-color: ${({ theme }) => theme.main.back};
 
   }
 
+  .socials {
+    display: flex;
+    width: 55%;
+    justify-content: space-evenly;
+    margin: 53px 0;
+
+    
+    a { 
+        height: 33px;
+        width: 33px;
+        
+        
+        svg {
+          width: 100%;
+          height: 100%;
+          color: ${({ theme})=> theme.main.primary};
+
+          
+        }
+        .bi-linkedin {
+          :hover {
+
+            fill: #0960B7;
+            filter: brightness(1.2);
+          }
+        }
+
+        .bi-github {
+          :hover {
+            border-radius: 50%;
+            border: 3px solid;
+            background-color: black;
+            fill: white;
+          }
+        }
+      }
+  }
 `;
