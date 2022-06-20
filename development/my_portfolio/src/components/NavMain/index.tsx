@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Container } from './styles'
 
 function NavMain() {
@@ -7,7 +8,11 @@ function NavMain() {
             <nav>
                 <a data-back="Linkedin" data-front="Linkedin" target="_blank" href="https://www.linkedin.com/in/ogoiddev/" rel="noreferrer"><span>Linkedin</span></a>
                 <a data-back="Github" data-front="Github" target="_blank" href="https://github.com/ogoiddev" rel="noreferrer"><span>Github</span></a>
-                <a data-back="Contact me" data-front="Contact me" target="_blank" href="contact"><span>Contact me</span></a>
+                
+                <AnchorLink href='#contact' className="down">
+                    <span>Contact me</span>
+                </AnchorLink>
+
             </nav>
             
             <div className="present">

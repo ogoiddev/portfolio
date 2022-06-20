@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function Footer() {
     return (
-        <Container>
+        <Container id="contact">
             <span> <strong>® Copyright - Todos os direitos reservados.</strong> Feito com muito amor e dedicacao - @ogoiddev</span>
 
                 <AnchorLink href='#things' className="upp">
