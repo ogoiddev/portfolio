@@ -41,9 +41,9 @@
 
 <hr>
 
-### formsubmit
+### Formsubmit
 
-  1. seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  _https://formsubmit.co/_
+  1. seguindo as instrucoes aseguir: / _folowing instructions below_:  =>  <a target="blank" ref="https://formsubmit.co/">_Docs_</a>
 
 <hr>
 
