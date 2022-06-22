@@ -76,6 +76,10 @@ form button {
   width: 200px;
 }
 
+textarea {
+  max-height: 300px;
+}
+
 .letter_show {
   display: flex;
   flex-direction: column;
