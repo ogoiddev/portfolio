@@ -31,7 +31,8 @@ function NavMain() {
       </nav>
 
       <div className="present">
-        <h1>{"I'm Diogo Martini Pantaleão"}</h1>
+        <h1>{"I'm"}</h1>
+        <h1>Diogo Martini Pantaleão</h1>
         <h1>
           <span>Web</span> Developer
         </h1>
