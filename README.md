@@ -1,6 +1,6 @@
 # portfolio
  reunindo aprendizados para apresentar em curriculo / _gathering lessons learned to present in my resume_
-
+[https://ogoiddev.vercel.app/](site)
 # tecnologias utilizadas / _technologies used_
 
 
