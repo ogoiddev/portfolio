@@ -22,7 +22,7 @@
 ```       
   4. $ `npm i react-player`
 ```
-  (docs_:  _[https://styled-components.com/docs/basics#installation](https://www.npmjs.com/package/react-player)_)  
+  (docs_:  _https://www.npmjs.com/package/react-player_)  
   
 - if we clone repository, just do = $ `npm install`
 
