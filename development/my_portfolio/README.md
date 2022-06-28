@@ -1,4 +1,4 @@
-![Screenshot](capa%20Screenshot%202022-06-27%20225550.jpg1.jpg)
+![Screenshot](capa Screenshot 2022-06-27 225550.jpg)
 
 # Getting Started with Create React App
 
