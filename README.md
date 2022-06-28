@@ -11,18 +11,14 @@
 ##### starting like:
 ```
   1. $ `npx create-react-app my-app --template redux-typescript`
-```
-```
   2. $ `npm install @reduxjs/toolkit`
-```
-```
   3. $ `npm install react-router-dom@6` 
 ```
-       - docs_: _https://reactrouter.com/docs/en/v6/getting-started/installation#basic-installation_
+       --- docs_: _https://reactrouter.com/docs/en/v6/getting-started/installation#basic-installation_
 ```       
   4. $ `npm i react-player`
 ```
-       - docs_:  _[https://styled-components.com/docs/basics#installation](https://www.npmjs.com/package/react-player)_
+       --- docs_:  _[https://styled-components.com/docs/basics#installation](https://www.npmjs.com/package/react-player)_
   
 - if we clone repository, just do = $ `npm install`
 
