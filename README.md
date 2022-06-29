@@ -1,5 +1,6 @@
 # portfolio
  reunindo aprendizados para apresentar em curriculo / _gathering lessons learned to present in my resume_
+ <br/>
  checkout! => [Site](https://ogoiddev.vercel.app/)
  
 # tecnologias utilizadas / _technologies used_
